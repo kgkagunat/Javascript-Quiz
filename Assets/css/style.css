@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../Background-Image/2560x1440-digital-art-abstract-black-lines-minimalism-5k_1540754444.jpg);
+    background-color: rgb(169, 169, 169);
+  }
+  
+  header {
+    background-color: #6651bc;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  
+  button {
+    background-color: #6651bc;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+  
+  button:hover {
+    background-color: #2ab431;
+  }
+  
+  main {
+    padding: 16px;
+  }
+  
+  p, h2, label {
+    color: white;
+  }
+
+  #timer-container {
+    font-size: 20px;
+  }
+
+  #quiz-container {
+    font-size: 20px;
+  }
+
+  #choices {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .choice {
+    margin-top: 16px;
+  }
